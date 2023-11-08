@@ -1,0 +1,50 @@
+/* 
+    ttf - 올드브라우저지원(트루타입)
+    otf - 올드브라우저지원(오픈트루타입)
+    eot - ie를위한폰트
+    woff - 모던브라우저 (웹오픈폰트포맷)
+    woff2 - 최신브라우저(웹오픈폰트포맷) woff 최대 20%압축이된파일
+*/
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/Gilroy-Regular.woff2') format('woff2');
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/Gilroy-Medium.woff2') format('woff2');
+    font-weight: 500;
+}
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/Gilroy-SemiBold.woff2') format('woff2');
+    font-weight: 600;
+}
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/Gilroy-Bold.woff2') format('woff2');
+    font-weight: 700;
+}
+
+
+@font-face {
+    font-family: 'Noto Sans KR';
+    src: url('../fonts/NotoSansKR-Light-Hestia.woff') format('woff');
+    font-weight: 300;
+}
+@font-face {
+    font-family: 'Noto Sans KR';
+    src: url('../fonts/NotoSansKR-Regular-Hestia.woff') format('woff');
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'Noto Sans KR';
+    src: url('../fonts/NotoSansKR-Medium-Hestia.woff') format('woff');
+    font-weight: 500;
+}
+@font-face {
+    font-family: 'Noto Sans KR';
+    src: url('../fonts/NotoSansKR-Bold-Hestia.woff') format('woff');
+    font-weight: 700;
+}
